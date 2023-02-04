@@ -1,0 +1,27 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+.header--left_container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+}
+
+.header--pic {
+  padding-right: 14px;
+}
+
+.header--title {
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
